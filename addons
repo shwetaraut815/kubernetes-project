@@ -35,5 +35,9 @@ tar -czf $BACKUP_DIR/jenkins-backup-$DATE.tar.gz $JENKINS_HOME
 
 echo "Jenkins backup completed on $DATE"
 
+### we use shell script for take backup of db
+### I used shell scripts to monitor disk usage and alert when it crossed a threshold.
+### We used shell scripts to clean old logs automatically to save disk space
+### 
 
 
