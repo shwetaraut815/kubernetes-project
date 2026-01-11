@@ -38,6 +38,6 @@ echo "Jenkins backup completed on $DATE"
 ### we use shell script for take backup of db
 ### I used shell scripts to monitor disk usage and alert when it crossed a threshold.
 ### We used shell scripts to clean old logs automatically to save disk space
-### 
+### I used shell scripts to monitor services and automatically restart them if required.
 
 
